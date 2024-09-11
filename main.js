@@ -1,7 +1,5 @@
-function game() {
-    // Play the game
-    // Play 5 rounds
-    // Console-based
-}
+const choices = ['rock', 'paper', 'scissors']
 
-function playRound()
+function getComputerChoice() {
+    return choices [Math.floor(Math.random()*choices.length)];
+}
